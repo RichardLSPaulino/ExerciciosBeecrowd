@@ -13,6 +13,7 @@ public class SalarioComBonus {
         double totalVendas = input.nextDouble();
 
         double totalDeComissao = salario + (totalVendas * 0.15);
+
         System.out.printf("TOTAL = R$ %.2f\n", totalDeComissao);
 
     }
