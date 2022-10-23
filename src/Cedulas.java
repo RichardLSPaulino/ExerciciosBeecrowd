@@ -6,8 +6,8 @@ public class Cedulas {
 
         int cem, cinquenta, vinte, dez, cinco, dois, um;
 
-        int valorLido = (int)input.nextDouble();
-        float valor = valorLido;
+        int valorEmNotas = (int)input.nextDouble();
+        float valor = valorEmNotas;
 
         cem = (int) (valor / 100);
         valor %= 100;
@@ -30,7 +30,7 @@ public class Cedulas {
         um = (int) (valor / 1);
         valor %= 1;
 
-        System.out.println(valorLido);
+        System.out.println(valorEmNotas);
         System.out.printf("%d nota(s) de R$ 100,00\n", cem);
         System.out.printf("%d nota(s) de R$ 50,00\n", cinquenta);
         System.out.printf("%d nota(s) de R$ 20,00\n", vinte);
